@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+    <div class="login-box">
+
+        <h1>🎂 Happy Birthday 🎂</h1>
+
+        <h2>For Amna ❤️</h2>
+
+        <p>
+            Enter the secret password to open your surprise
+        </p>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter Password">
+
+        <button onclick="checkPassword()">
+            Open Surprise ✨
+        </button>
+
+        <p id="message"></p>
+
+    </div>
+
+    <!-- Background Music -->
+    <audio id="birthdayMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
